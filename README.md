@@ -1,4 +1,4 @@
-# Document Classification Example 
+# Text Analysis Example 
 
 ## Dependencies 
 To run this script you will need the packages listed in `requirements.txt`. To install run 
@@ -7,14 +7,12 @@ To run this script you will need the packages listed in `requirements.txt`. To i
 
 in the command line. 
 
-You will also need `jupyter notebook` and `python` installed. 
+You will also need `jupyter notebook` and `python3` installed. 
 
 ## Data
 The data was filtered from this [dataset](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/). 
 
-To unzip the data, run ```gunzip RC_2015-05.json.gz```
+To unzip the data, run ```gunzip ./data/RC_2015-05.json.gz```
 
-If you would like data from Jan-April in addition to data from May, you can enter the following command from the cloned repository to grab data from the DSSG data mount:
 
-```rsync -av USERNAME@BOX.dssg.io:/mnt/data/training/nlp_training/2015 .```
 
